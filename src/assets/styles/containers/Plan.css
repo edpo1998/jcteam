@@ -1,0 +1,37 @@
+.Plan{
+    padding: 3rem;
+    width: 100%;
+    height: auto;
+    display: grid;
+    background: white;
+    border: 1px solid;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    transition: all .4s ease;
+}
+
+.Plan__Header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.Plan__Header__logo{
+    width: 50px;
+    height: 80px;
+}
+
+.Plan__Header__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Plan__Comidas{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
